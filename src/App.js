@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
+import ExampleSemanticComponent from './ExampleSemanticComponent';
 const background = "http://images.all-free-download.com/images/graphiclarge/beautiful_scenery_04_hd_pictures_166258.jpg";
 class App extends Component {
   render() {
     return (
-      
+      <div>
         <Card/>
+        <div className="mt-4 ml-6">
+          <ExampleSemanticComponent /> 
+        </div>
+        
+      </div>
+        
+
     );
   }
 }
