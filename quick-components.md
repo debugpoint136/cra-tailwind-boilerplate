@@ -25,3 +25,36 @@
     </div>
 </div>
 ```
+
+
+## CSS-grid example
+
+```
+import React, {Component} from 'react'
+
+// https://tailwindcss.github.io/plugin-examples/#simple-buttons
+
+const Base = () => {
+    return (
+        <div
+            className="grid grid-columns-3 text-center"
+            style={{
+            'justifyItems': 'center'
+        }}>
+
+            <div className='text-md max-w-sm mb-8 p-8 bg-pink-lighter'>
+                <p>PRODUCTION</p>
+            </div>
+
+            <div className='text-md max-w-sm mb-8 p-8 bg-red-lighter'>
+                <p>PRODUCTION</p>
+            </div>
+            <div className='text-md max-w-sm mb-8 p-8 bg-red-lighter'>
+                <p>PRODUCTION</p>
+            </div>
+        </div>
+    )
+}
+
+export default Base;
+```
