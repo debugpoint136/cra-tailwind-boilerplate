@@ -32,14 +32,12 @@
 ```
 import React, {Component} from 'react'
 
-// https://tailwindcss.github.io/plugin-examples/#simple-buttons
-
 const Base = () => {
     return (
         <div
             className="grid grid-columns-3 text-center"
             style={{
-            'justifyItems': 'center'
+            'justifyItems': 'center' // https://alligator.io/css/align-justify/
         }}>
 
             <div className='text-md max-w-sm mb-8 p-8 bg-pink-lighter'>
